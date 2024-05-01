@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ALWeb Dev Proj.</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, viewport-fit=cover"/>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="main-area">
+        <div class="entry-area">
+            <h2>Create User</h2>
+            <div class="entry-wrapper">
+                <label class="entry-label" for="username">Username:</label>
+                <input id="username" class="entry" type="text"/>
+            </div>
+            <div class="entry-wrapper">
+                <label class="entry-label" for="firstName">First Name:</label>
+                <input id="firstName" class="entry" type="text"/>
+            </div>
+            <div class="entry-wrapper">
+                <label class="entry-label" for="lastName">Last Name:</label>
+                <input id="lastName" class="entry" type="text"/>
+            </div>
+            <div class="entry-wrapper">
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+        <div class="existing-users-area">
+            <table id="existing-users-table">
+                <thead>
+                    <tr>
+                        <th>UserName</th>
+                        <th>First&nbsp;Name</th>
+                        <th>Last&nbsp;Name</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+h2 {
+    margin: 0;
+}
+
+.entry-label {
+    display: inline-block;
+    min-width: 100px;
+}
+
+.entry-wrapper {
+    font-size: 20px;
+}
+
+.entry-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-area {
+    width: 480px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #000000
+}
+
+.existing-users-area {
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th {
+        background-color: #4caf50;
+        color: black;
+        padding: 10px;
+    }
+    td {
+        padding: 10px;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+}
